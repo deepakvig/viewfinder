@@ -20,7 +20,7 @@ That said, there is quite a bit of interesting code to look at:
   [schema.py](backend/db/schema.py) and
   [indexers.py](backend/db/indexers.py). Also take a look at the
   [operation.py](backend/db/operation.py) which provides at least once
-  execution of idempotent operations.
+  execution of idempotent operations
 
 * The server also provided support for versioning at both the database
   and protocol levels. See [db/versions.py](backend/db/versions.py),
